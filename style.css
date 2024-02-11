@@ -32,7 +32,7 @@ background-size: cover;
 }
 .earth > img{
     top: 100px;
-    animation: planets 10s linear infinite;
+    animation: orbit 10s linear infinite;
 }
 .sun img{
     position: absolute;
