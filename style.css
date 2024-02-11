@@ -30,7 +30,7 @@ background-size: cover;
         position: absolute;
         animation: orbit 10s linear infinite;
 }
-.earth> img{
+.earth > img{
     top: 100px;
     animation: planets 10s linear infinite;
 }
@@ -40,7 +40,7 @@ background-size: cover;
     width: 40px;
     top: 47%;
     height: 40px;
-    animation: sun 10s linear infinite;
+    animation: orbit 10s linear infinite;
 }
 
 img{
@@ -50,22 +50,7 @@ img{
     top: 40px;
 }
 .dot img {
-animation: planets 10s linear infinite;
-}
-@keyframes sun {
-    from {transform: translate(0) rotate(0deg);}
-    to {transform: translate(0) rotate(360deg);} 
-    
-}
-@keyframes planets {
-	    0% 
-        {
-            -webkit-transform: rotate(0);transform: rotate(0);
-        }
-	    100% 
-        {
-            -webkit-transform: rotate(360deg);transform: rotate(360deg);
-        }	
+animation: orbit 10s linear infinite;
 }
 @keyframes orbit {
     0%{
